@@ -285,7 +285,7 @@ docker pull netlify/build:focal
 ```
 
 Make sure that any changes you want to test in the local build are committed.
-Uncommited changes are ignored by the Netlify build image.
+Uncommitted changes are ignored by the Netlify build image.
 
 After running the `start-image.sh` script you will drop into the docker container.
 Then you will be able to run any commands, i.e. the build:
